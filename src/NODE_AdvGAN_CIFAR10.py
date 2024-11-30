@@ -28,7 +28,7 @@ parser.add_argument('--lr_h_rate', default=0.5, help='')
 parser.add_argument('--lr_h_n_steps', default=60, help='')
 
 parser.add_argument('--l_inf_bound', default=15 / 255, type=float, help='')
-parser.add_argument('--l_inf_bound_train', default=10 / 255, type=float, help='')
+parser.add_argument('--l_inf_bound_train', default=15 / 255, type=float, help='')
 parser.add_argument('--alpha', default=0.01, type=float, help='')
 parser.add_argument('--beta', default=0.01, type=float, help='')
 parser.add_argument('--gamma', default=1,type=float, help='')
